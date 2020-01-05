@@ -16,7 +16,7 @@
 <meta property="og:description" content="关键字：interface">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-01-05T09:03:48.159Z">
-<meta property="article:modified_time" content="2020-01-05T10:43:36.881Z">
+<meta property="article:modified_time" content="2020-01-05T10:47:29.441Z">
 <meta property="article:author" content="XiaoDuan">
 <meta name="twitter:card" content="summary">
   
@@ -175,8 +175,11 @@
     <div class="article-entry" itemprop="articleBody">
       
         <!--# excerpt_link: more-->
-<h2 id="关键字：interface"><a href="#关键字：interface" class="headerlink" title=" 关键字：interface"></a> 关键字：interface</h2> <a id="more"></a>
-<p> 格式：<br>  nterface{}<br>  接口中成员修饰符是固定的（如果在编写源程序时没有加上这些修饰符，系统是默认加上的。但是为了增加代码的阅读性，建议平时编写源程序时都加上这些修饰符）<br>    . 成员变量：public static final（即接口中的成员变量都是公开的静态的不可被修改的变量）<br>    . 成员方法：public abstract（即接口中的方法都是公开的抽象方法）<br> 用法：<br>    . 需要被子类实现（class 类名 inplements 接口）<br>    . 子类对接口中的方法全部覆盖后，子类才可以实例化（因为接口中的方法都是抽象的，所以不能直接被实例化）<br> 接口的出现将“多继承”通过另一种方法来体现，即“多实现”<br>    . 一个类可以实现多个接口，用法：class 类名 inplements 接口名1，接口名2（需要注意的是：一个类不能同时实现有名称相同类型不同的方法的多各接口）<br> 当一个类继承另一个类时，仍然可以实现接口<br> 接口与接口不仅能继承，还能实现多继承</p>
+<p> 关键字：interface</p>
+ <a id="more"></a>
+<h4 id="格式："><a href="#格式：" class="headerlink" title="格式："></a>格式：</h4><p>  nterface{}<br>  接口中成员修饰符是固定的（如果在编写源程序时没有加上这些修饰符，系统是默认加上的。但是为了增加代码的阅读性，建议平时编写源程序时都加上这些修饰符）<br>    - 成员变量：public static final（即接口中的成员变量都是公开的静态的不可被修改的变量）<br>    - 成员方法：public abstract（即接口中的方法都是公开的抽象方法）</p>
+<h4 id="用法："><a href="#用法：" class="headerlink" title="用法："></a>用法：</h4><pre><code>. 需要被子类实现（class 类名 inplements 接口）
+. 子类对接口中的方法全部覆盖后，子类才可以实例化（因为接口中的方法都是抽象的，所以不能直接被实例化）</code></pre><p> 接口的出现将“多继承”通过另一种方法来体现，即“多实现”<br>    . 一个类可以实现多个接口，用法：class 类名 inplements 接口名1，接口名2（需要注意的是：一个类不能同时实现有名称相同类型不同的方法的多各接口）<br> 当一个类继承另一个类时，仍然可以实现接口<br> 接口与接口不仅能继承，还能实现多继承</p>
 
       
 
