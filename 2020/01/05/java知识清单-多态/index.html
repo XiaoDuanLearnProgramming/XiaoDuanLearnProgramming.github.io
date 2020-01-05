@@ -5,17 +5,17 @@
   
 
   
-  <title>Hello World | Hexo</title>
+  <title>java知识清单-多态 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="用法- 父类(或接口) 对象名 &#x3D; new 子类() 多态的体现- 父类的引用指向自己子类的对象 - 父类的引用也可以接收自己的子类的对象多态的前提-必须是类与类之间有继承关系或者是类与接口之间的实现关系 -子类要对父类中的方法存在覆盖，不然该多态的实现是没有意义的多态的好处- 提高代码的扩展性 - 提高代码的复用性多态的应用多态的局限性- 只能使用父类中的引用访问父类中的成员注意事项：- 实现多">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://xiaoduanlearnprogramming.github.io/2020/01/05/hello-world/index.html">
+<meta property="og:title" content="java知识清单-多态">
+<meta property="og:url" content="https://xiaoduanlearnprogramming.github.io/2020/01/05/java%E7%9F%A5%E8%AF%86%E6%B8%85%E5%8D%95-%E5%A4%9A%E6%80%81/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="用法- 父类(或接口) 对象名 &#x3D; new 子类() 多态的体现- 父类的引用指向自己子类的对象 - 父类的引用也可以接收自己的子类的对象多态的前提-必须是类与类之间有继承关系或者是类与接口之间的实现关系 -子类要对父类中的方法存在覆盖，不然该多态的实现是没有意义的多态的好处- 提高代码的扩展性 - 提高代码的复用性多态的应用多态的局限性- 只能使用父类中的引用访问父类中的成员注意事项：- 实现多">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-01-05T08:51:31.193Z">
-<meta property="article:modified_time" content="2020-01-05T08:51:31.193Z">
+<meta property="article:published_time" content="2020-01-05T09:03:48.154Z">
+<meta property="article:modified_time" content="2020-01-05T03:44:25.900Z">
 <meta property="article:author" content="XiaoDuan">
 <meta name="twitter:card" content="summary">
   
@@ -66,10 +66,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-java知识清单-多态" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/01/05/hello-world/" class="article-date">
-  <time datetime="2020-01-05T08:51:31.193Z" itemprop="datePublished">2020-01-05</time>
+    <a href="/2020/01/05/java%E7%9F%A5%E8%AF%86%E6%B8%85%E5%8D%95-%E5%A4%9A%E6%80%81/" class="article-date">
+  <time datetime="2020-01-05T09:03:48.154Z" itemprop="datePublished">2020-01-05</time>
 </a>
     
   </div>
@@ -80,7 +80,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      java知识清单-多态
     </h1>
   
 
@@ -88,24 +88,15 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+        <h4 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h4><pre><code>- 父类(或接口) 对象名 = new 子类() </code></pre><h4 id="多态的体现"><a href="#多态的体现" class="headerlink" title="多态的体现"></a>多态的体现</h4><pre><code>- 父类的引用指向自己子类的对象
+- 父类的引用也可以接收自己的子类的对象</code></pre><h4 id="多态的前提"><a href="#多态的前提" class="headerlink" title="多态的前提"></a>多态的前提</h4><pre><code>-必须是类与类之间有继承关系或者是类与接口之间的实现关系
+-子类要对父类中的方法存在覆盖，不然该多态的实现是没有意义的</code></pre><h4 id="多态的好处"><a href="#多态的好处" class="headerlink" title="多态的好处"></a>多态的好处</h4><pre><code>- 提高代码的扩展性
+- 提高代码的复用性</code></pre><h4 id="多态的应用"><a href="#多态的应用" class="headerlink" title="多态的应用"></a>多态的应用</h4><h4 id="多态的局限性"><a href="#多态的局限性" class="headerlink" title="多态的局限性"></a>多态的局限性</h4><pre><code>- 只能使用父类中的引用访问父类中的成员</code></pre><h4 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h4><pre><code>- 实现多态时是对象的类型提升，向上转型故只能调用父类（或接口）中已有的方法；如果想要调用子类中特有的方法，需强制将父类的引用，转成子类类型，即向下转型。
+- 不要出现将父类对象转换为子类类型</code></pre>
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://xiaoduanlearnprogramming.github.io/2020/01/05/hello-world/" data-id="ck50sae9c0000fstv6mcwdyp0" class="article-share-link">Share</a>
+      <a data-url="https://xiaoduanlearnprogramming.github.io/2020/01/05/java%E7%9F%A5%E8%AF%86%E6%B8%85%E5%8D%95-%E5%A4%9A%E6%80%81/" data-id="ck50shdzw000068tv0k9pcm92" class="article-share-link">Share</a>
       
       
     </footer>
@@ -114,15 +105,20 @@
     
 <nav id="article-nav">
   
-    <a href="/2020/01/05/java%E7%9F%A5%E8%AF%86%E6%B8%85%E5%8D%95-%E5%A4%9A%E6%80%81/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2020/01/05/java%E7%9F%A5%E8%AF%86%E6%B8%85%E5%8D%95-%E6%8E%A5%E5%8F%A3/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          java知识清单-多态
+          java知识清单-接口
         
       </div>
     </a>
   
+  
+    <a href="/2020/01/05/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
 </nav>
 
